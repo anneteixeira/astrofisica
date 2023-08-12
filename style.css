@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'nasa';
+    src: url('nasalization-rg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+ /*    padding: 0;
+    margin: 0; */
+    background-color: black;
+    background-image: url(img/back1.jpg);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main{
+    background-color: rgba(173, 216, 230, 0);
+    padding: 20px;
+
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+    margin: 390px 0;
+}
+
+.titulo h1{
+    font-size: 7em;
+    margin-bottom: 0;
+    font-family: 'nasa',Arial, Helvetica, sans-serif;
+}
+
+.titulo p{
+    margin-top: -11px;
+    font-size: 2em;
+}
+
+.intro{
+    text-align: center;
+}
+
+.text h2{
+    font-size: 4em;
+    font-family: 'nasa',Arial, Helvetica, sans-serif;
+}
+
+.text p{
+    font-size: 2em;
+}
+
+.intro img{
+    width: 700px;
+
+}
+
+.indice{
+    background-color: rgba(240, 128, 128, 0.425);
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width: 800px){
+    .titulo h1{
+        font-size: 5em;
+        margin-bottom: 0;
+    }
+
+    .titulo p{
+        margin-top: -11px;
+        font-size: 2em;
+    }
+    /* -================================= */
+
+    .intro{
+        text-align: center;
+    }
+    
+    .text h2{
+        font-size: 4em;
+    }
+    
+    .text p{
+        font-size: 2em;
+    }
+    
+    .intro img{
+        width: 100%;
+    
+    }
+}
+
+@media screen and (max-width: 591px){
+    .titulo h1{
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+
+    .intro{
+        text-align: center;
+    }
+    
+    .text h2{
+        font-size: 4em;
+    }
+    
+    .text p{
+        font-size: 2em;
+    }
+    
+    .intro img{
+        width: 100%;
+    
+    }
+}
+
+@media screen and (max-width: 400px){
+    .titulo h1{
+        font-size: 3.1em;
+        margin-bottom: 0;
+    }
+    .titulo p{
+        margin-top: -11px;
+        margin-left: 21px;
+        font-size: 2em;
+    }
+    
+    .intro{
+        text-align: center;
+    }
+    
+    .text h2{
+        font-size: 3.1em;
+    }
+    
+    .text p{
+        font-size: 1.7em;
+    }
+    
+    .intro img{
+        width: 100%;
+    
+    }
+}
