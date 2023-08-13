@@ -187,3 +187,13 @@ main{
         font-size: 4.4em;
     }
 }
+
+@media screen and (max-width: 438px){
+    .titulo h1{
+        font-size: 3.4em;
+    }
+
+    .indice{
+        height: 650px;
+    }
+}
