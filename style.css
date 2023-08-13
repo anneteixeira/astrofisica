@@ -250,3 +250,8 @@ main{
         font-size: 14px;
     }
 }
+@media screen and (max-width: 400px){
+    .indice{
+        height: 600px;   
+    }
+}
