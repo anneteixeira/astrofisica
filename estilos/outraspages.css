@@ -33,8 +33,7 @@ main{
 
 .titulo{
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin: 430px 0;
 }
 
 .titulo h1{
@@ -44,7 +43,7 @@ main{
 }
 
 .titulo p{
-    margin-top: -11px;
+    margin-top: -5px;
     font-size: 2em;
 }
 
@@ -60,15 +59,33 @@ main{
 .text p{
     font-size: 1.8em;
 }
-
-.cont img{
-    width: px;
-
+/* ================================ */
+.container{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
+.container h2{
+    font-size: 4.8em;
+    margin-bottom: 0px;
+}
+
+.container p{
+    margin-top: 15px;
+}
+
+.container > p#mais{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+/* ================================ */
+
 .indice{
-    background-image: linear-gradient(to right, #6463b1, #525195, #34337B, #1D1C61, #0B0A42);
-    margin-top: 200px;
+    background-image: linear-gradient(to right, #504f99, #414085, #34337B, #1D1C61, #0B0A42);
+    margin-top: 150px;
     padding: 10px;
     border-radius: 6px;
     line-height: 50px;
@@ -98,6 +115,21 @@ main{
     font-size: 20px;
     margin-left: 150px; 
 }
+
+.voltar {
+    font-size: 21px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(190, 12, 12);
+}
+
 
 
 
@@ -192,8 +224,15 @@ main{
     .titulo h1{
         font-size: 3.4em;
     }
-
+    .indice ul{
+        font-size: 18px;
+        height: 350px;
+    }
     .indice{
-        height: 650px;
+        height: 690px;
+    }
+
+    .voltar{
+        font-size: 19px;
     }
 }
