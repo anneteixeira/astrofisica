@@ -247,17 +247,71 @@ h2.faculh2{
 
 @media screen and (max-width: 438px){
     .titulo h1{
-        font-size: 3.4em;
+        font-size: 3.2em;
+        margin-top: 300px;
+    }
+    .titulo p{
+        margin-top: 5px;
+        font-size: 1.4em;
     }
     .indice ul{
-        font-size: 18px;
+        font-size: 15px;
         height: 350px;
     }
     .indice{
         height: 690px;
     }
-
+    .par{
+        font-size: 15px;
+    }
     .voltar{
+        text-align: left;
         font-size: 19px;
+    }
+
+    /* ESTUDO.HTML */
+    main{
+        padding: 3px;
+    }
+
+    h1.estudh1{
+        margin-top: 260px;
+        font-size: 2.7em;
+    }
+    h1.estudh1-2{
+        margin-top: 0px;
+        font-size: 2.2em;
+    }
+
+    p#faculp{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .container > h3{
+        font-family: 'nasa',Arial, Helvetica, sans-serif;
+        font-size: 2.7em;
+    }
+
+    .container > p{
+        font-size: 1.5em;
+    }
+
+    /* facul-usp */
+    h1.faculh1{
+        font-size: 3em;
+    }
+
+    h2.faculh2{
+        font-size: 1.5em;
+    }
+
+    p.facul{
+        font-size: 30px;
+    }
+
+    /* tecnologia.html */
+    h1.h1tec{
+        font-size: 3em;
     }
 }

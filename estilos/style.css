@@ -216,14 +216,18 @@ a:hover{
 }
 
 @media screen and (max-width: 450px){
+    .titulo{
+        margin-top: 300px;
+    }
     .titulo h1{
-        font-size: 3.1em;
-        margin-bottom: 0;
+        font-size: 2.8em;
+        margin-bottom: 5px;
+        margin-top: 0px;
     }
     .titulo p{
         margin-top: -11px;
-        margin-left: 21px;
-        font-size: 2em;
+        margin-left: 0px;
+        font-size: 1.5em;
     }
     
     .intro{
@@ -231,11 +235,11 @@ a:hover{
     }
     
     .text h2{
-        font-size: 3.1em;
+        font-size: 2.7em;
     }
     
     .text p{
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
     
     .intro img{
@@ -254,13 +258,13 @@ a:hover{
 
     .indice > p{
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .indice > ul{
         height: 400px;
         columns: 1;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 400px){
