@@ -33,11 +33,11 @@ main{
 
 .titulo{
     text-align: center;
-    margin: 430px 0;
 }
 
 .titulo h1{
     font-size: 6em;
+    margin-top: 400px;
     margin-bottom: 0;
     font-family: 'nasa',Arial, Helvetica, sans-serif;
 }
@@ -45,6 +45,7 @@ main{
 .titulo p{
     margin-top: -5px;
     font-size: 2em;
+    margin-bottom: 400px;
 }
 
 .cont{
@@ -130,7 +131,31 @@ a:hover{
     color: rgb(190, 12, 12);
 }
 
+/* titulo estudar.html  */
 
+h1#estudh1{
+    margin-top: 325px;
+}
+
+p#estudp{
+    margin-bottom: 350px;
+}
+
+/* faculdades */
+
+h1.faculh1{
+    font-family: 'nasa',Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2.faculh2{
+    text-align: center;
+    font-size: 2.7em;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
 
 
 
